@@ -1,0 +1,45 @@
+.Userblock0{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px;
+    padding-bottom: 40px;
+}
+.Userblock1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    border-bottom: solid 1px;
+    padding-bottom: 40px;
+}
+
+.photo0{
+    margin-right: 6%;
+    
+}
+
+.photo1{
+    margin-left: 6%;
+}
+
+img{
+    height: 100%;
+    border-radius: 10px;
+    border: solid 2px;
+}
+
+.profile{
+    font-weight: 600;
+}
+
+@media (max-width: 500px) {
+    .Userblock0 ,.Userblock1{
+        flex-direction: column;
+    } 
+    .photo0,.photo1{
+        margin-bottom: 6%;
+        margin-left: 5%;
+    }
+    
+}
